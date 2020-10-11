@@ -1,0 +1,20 @@
+@import '../../style/main';
+
+.Login {
+    @include centered-component-autoheight();
+
+    .LoginForm {
+        display: flex;
+        flex-direction: column;
+
+        .LoginFormButton {
+            margin-top: $button-margin-top;
+        }
+
+        .LoginFormButtonBack {
+            margin-top: $button-margin-top;
+        }
+
+    }
+
+}

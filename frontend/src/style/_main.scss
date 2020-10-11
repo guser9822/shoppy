@@ -1,0 +1,15 @@
+$button-margin-top : 10%;
+
+@mixin full-page-centered {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+@mixin centered-component-autoheight {
+    height: auto;
+    width: 75%;
+    margin: 0 auto;
+}

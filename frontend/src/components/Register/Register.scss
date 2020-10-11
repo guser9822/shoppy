@@ -1,0 +1,24 @@
+@import '../../style/main';
+
+.Register {
+    @include centered-component-autoheight();
+
+    .RegisterForm {
+        display: flex;
+        flex-direction: column;
+
+        .RegisterFormConfirmButton {
+            margin-top: $button-margin-top;
+        }
+
+        .RegisterPageFormClearButton {
+            margin-top: $button-margin-top;
+        }
+        
+        .RegisterPageFormBackButton {
+            margin-top: $button-margin-top;
+        }
+
+    }
+
+}
